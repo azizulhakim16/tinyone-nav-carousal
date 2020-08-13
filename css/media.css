@@ -1,0 +1,146 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+	padding: 10px 0;
+}
+
+.menu ul li a{
+	font-size: 18px;
+	text-align: right;
+	padding: 0px !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding-bottom: 60px;
+}
+.s-content{
+	margin-top: 10px;
+}
+.s-content h1{
+	font-size: 26px;
+}
+.s-content h2{
+	font-size: 17px;
+	margin: 10px 0;
+}
+.s-content p{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+.s-icon li i{
+	font-size: 26px;
+  margin-right: 18px;
+}
+.custom-ci {
+  bottom: -40px;
+}
+.custom-ci li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+/*slider end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header{
+	padding: 12px 0;
+}
+
+.menu ul li a{
+	font-size: 20px;
+	text-align: right;
+	padding: 0px !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding-bottom: 70px;
+}
+.s-content{
+	margin-top: 25px;
+}
+.s-content h1{
+	font-size: 28px;
+}
+.s-content h2{
+	font-size: 18px;
+	margin: 14px 0;
+}
+.s-content p{
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+.s-icon li i{
+	font-size: 30px;
+  margin-right: 20px;
+}
+.custom-ci {
+  bottom: -50px;
+}
+.custom-ci li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+/*slider end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	font-size: 20px;
+	text-align: right;
+	padding: 0px !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding-bottom: 90px;
+}
+.s-content{
+	margin-top: 45px;
+}.s-content h1{
+	font-size: 30px;
+}
+.s-content h2{
+	font-size: 19px;
+	margin: 18px 0;
+}
+.s-content p{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.s-icon li i{
+	font-size: 36px;
+  margin-right: 20px;
+}
+.custom-ci {
+  bottom: -60px;
+}
+.custom-ci li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+/*slider end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 35px !important;
+}
+/*header end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
